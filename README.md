@@ -6,8 +6,9 @@ mcbTerminal
 Free for personal and commercial use under the
 [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/)
 
-Nice for websites to view OS X Terminal or Windows Console output. See [example](example.html) for a
-preview.
+Nice for websites to view OS X Terminal or Windows Console output. See
+[example](https://htmlpreview.github.io/?https://github.com/mcbSolutions/mcbWebTerminal/blob/master/example.html)
+for a preview.
 
 Usage OS X
 ----------------------------------------------------------------------------------------------
