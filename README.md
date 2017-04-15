@@ -1,4 +1,4 @@
-mcbTerminal
+mcbWebTerminal
 ==============================================================================================
 
 **Version** 0.0 alpha; Please report errors.
@@ -39,6 +39,6 @@ For root add also `root` to class.
     </pre>
 
 
-### Results
+### Result
 
 ![Preview](README.png)
