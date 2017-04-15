@@ -1,0 +1,26 @@
+
+/* Main settings */
+@font-size: 14px;
+@font: "Helcevita Neue",  Helvetica, Arial, sans-serif;
+@font-mono: "Lucida Console", Monaco, monospace;
+@font-color:green;
+@font-color-root:#F00000;
+
+@width: 702px;
+@height: 394px;
+@shadow-width: 2em;
+
+#fonts {
+  .sans-serif (@weight: normal, @size: 16px, @lineHeight: 200%) {
+    font-family: @font;
+    font-weight: normal;
+    font-size: @size;
+    line-height: @lineHeight;
+  }
+  .monospace (@weight: normal, @size: 14px, @lineHeight: 120%) {
+    font-family: @font-mono;
+    font-weight: normal;
+    font-size: @font-size;
+    line-height: @lineHeight;
+  }
+}

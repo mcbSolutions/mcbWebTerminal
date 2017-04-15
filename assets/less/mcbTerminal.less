@@ -1,0 +1,63 @@
+/*!
+ * mcbTerminal
+ *
+ * Version: 0.0 Alpha
+ * Author: Büchel Michael
+ * Twitter: @mcbSolutions
+ * License: License: Free for personal and commercial use under the Creative Commons Attribution 4.0 License (https://creativecommons.org/licenses/by/4.0/)
+ * Website: https://www.mcbsolutions.at
+*/
+@import "vars.less";
+@import "libs/mixins.less";
+
+
+.terminal {
+	#fonts > .monospace();
+	.drop-shadow(@shadow-width, @shadow-width, @shadow-width);
+
+	width:@width;
+	height:@height;
+
+	background: black;
+	border: none;
+	/* top left bottom right*/
+	padding:0;
+	margin-left: @shadow-width;
+	margin-bottom: @shadow-width*2;
+  overflow: hidden;
+
+	code {
+		.whitespace();
+		display: block;
+		line-height: 1;
+
+		position:relative;
+		color:@font-color;
+		left:8px;
+		top:8px;
+		padding:0;
+		overflow: scroll;
+		height:92%;
+		width:98%;
+	 }
+}
+
+.osx {
+	background:url("images/terminal_osx.png") no-repeat;
+}
+
+.win {
+	background:url("images/console_win.png") no-repeat;
+	code {
+		left:12px;
+		top:12px;
+		height:90%;
+		width:96%;
+	}
+}
+
+.root {
+	code {
+		color:@font-color-root;
+	}
+}

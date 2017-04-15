@@ -1,0 +1,9 @@
+/*!
+ * mcbTerminal
+ *
+ * Version: 0.0 Alpha
+ * Author: Büchel Michael
+ * Twitter: @mcbSolutions
+ * License: License: Free for personal and commercial use under the Creative Commons Attribution 4.0 License (https://creativecommons.org/licenses/by/4.0/)
+ * Website: https://www.mcbsolutions.at
+*/.whitespace{white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;white-space:pre-wrap;word-wrap:break-word}.whitespace-pre{white-space:-moz-pre;white-space:-pre;white-space:-o-pre;white-space:pre;word-wrap:break-word}.terminal{font-family:"Lucida Console",Monaco,monospace;font-weight:normal;font-size:14px;line-height:120%;-webkit-box-shadow:2em 2em 2em 0 rgba(0,0,0,0.25);-moz-box-shadow:2em 2em 2em 0 rgba(0,0,0,0.25);box-shadow:2em 2em 2em 0 rgba(0,0,0,0.25);width:702px;height:394px;background:#000;border:none;padding:0;margin-left:2em;margin-bottom:4em;overflow:hidden}.terminal code{white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;white-space:pre-wrap;word-wrap:break-word;display:block;line-height:1;position:relative;color:#008000;left:8px;top:8px;padding:0;overflow:scroll;height:92%;width:98%}.osx{background:url("images/terminal_osx.png") no-repeat}.win{background:url("images/console_win.png") no-repeat}.win code{left:12px;top:12px;height:90%;width:96%}.root code{color:#f00000}
