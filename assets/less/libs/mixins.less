@@ -6,49 +6,10 @@
 	box-shadow:		@x @y @blur @spread rgba(0, 0, 0, @alpha);
 }
 
-.opacity (@opacity: 0.5) {
-	-webkit-opacity: 	@opacity;
-	-moz-opacity: 		@opacity;
-	opacity: 		@opacity;
-}
-
-
 .whitespace {
 	white-space: -moz-pre-wrap; /* Moz */
 	white-space: -pre-wrap;     /* Opera 4-6 */
 	white-space: -o-pre-wrap;   /* Opera 7 */
 	white-space: pre-wrap;      /* CSS3  */
 	word-wrap: break-word;      /* IE 5.5+ */
-}
-
-.whitespace-pre {                                   // mcb
-	white-space: -moz-pre; /* Moz */
-	white-space: -pre;     /* Opera 4-6 */
-	white-space: -o-pre;   /* Opera 7 */
-	white-space: pre;      /* CSS3  */
-	word-wrap: break-word;      /* IE 5.5+ */
-}
-
-.overflow-scrolling(@string: touch){
-	-webkit-overflow-scrolling : touch; /* iOS 5+ */
-	-webkit-overflow-scrolling: @string;
-	-webkit-overflow-scrolling: @string;
-	-khtml-overflow-scrolling: @string;
-	-moz-overflow-scrolling: @string;
-	-ms-overflow-scrolling: @string;
-	overflow-scrolling: @string;
-}
-// retina.less
-// A helper mixin for applying high-resolution background images (http://www.retinajs.com)
-
-@highdpi: ~"(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx)";
-
-.at2x(@path, @w: auto, @h: auto) {
-  background-image: url(@path);
-  @at2x_path: ~`@{path}.replace(/\.\w+$/, function(match) { return "@2x" + match; })`;
-
-  @media @highdpi {
-    background-image: url("@{at2x_path}");
-    background-size: @w @h;
-  }
 }
